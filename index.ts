@@ -20,7 +20,7 @@ import { format } from "util";
   const holidays = await fetchBrazilianHolidayDates();
 
   const dateRange = eachMonthOfInterval({
-    start: startOfYear(parse("2018-01-01", "yyyy-MM-dd", new Date())),
+    start: startOfYear(parse("2017-01-01", "yyyy-MM-dd", new Date())),
     end: startOfYear(parse("2021-01-01", "yyyy-MM-dd", new Date()))
   });
 
